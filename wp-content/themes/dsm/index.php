@@ -18,7 +18,7 @@
 	</div>
 		<!--End-banner-->
 		<!--Slider-Starts-Here-->
-				<script src="<?php echo bloginfo('template_url') ?>/<?php echo bloginfo('template_url') ?>/js/responsiveslides.min.js"></script>
+				<script src="<?php echo bloginfo('template_url') ?>/js/responsiveslides.min.js"></script>
 			 <script>
 			    // You can also use "$(window).load(function() {"
 			    $(function () {
@@ -58,121 +58,67 @@
 	<!--End-build-->	
 	<!--start-design-->	
 	<div class="design">
-		<div class="container">
-			<div class="design-main">
-				<div class="col-md-3 design-left">
-					<div class="design-text">
-						<img src="<?php echo bloginfo('template_url') ?>/images/design-1.png" alt="" />
-						<h3>CONSULTING</h3>
-						<p>Vivamus viverra nibh in quam bibendum interdum. Duis convallis est ante, id pulvinar tortor tempus sed. Pellentesque nulla tellus,</p>
-					</div>
+		<ul class="pricing_table">
+		<?php
+			$connection = mysqli_connect("localhost" , "root" , "xwwx11" , "dsm");
+			$ssql = "SET CHARACTER SET utf8";
+			mysqli_query($connection , $ssql);
+			$table1 = "SELECT * FROM pricingTable WHERE name LIKE 'Basic'";
+			$result1 = mysqli_query($connection , $table1);
+			$row1 = mysqli_fetch_assoc($result1);
+		?>
+		<li class="price_block">
+			<h3><?php echo $row1["name"]; ?></h3>
+			<div class="price">
+				<div class="price_figure">
+					<span class="price_number">$<?php echo $row1["price"]; ?></span>
+					<span class="price_tenure">per month</span>
 				</div>
-				<div class="col-md-3 design-left">
-					<div class="design-text">
-						<img src="<?php echo bloginfo('template_url') ?>/images/design-2.png" alt="" />
-						<h3>PLANNING</h3>
-						<p>Vivamus viverra nibh in quam bibendum interdum. Duis convallis est ante, id pulvinar tortor tempus sed. Pellentesque nulla tellus,</p>
-					</div>
-				</div>
-				<div class="col-md-3 design-left">
-					<div class="design-text">
-						<img src="<?php echo bloginfo('template_url') ?>/images/design-3.png" alt="" />
-						<h3>DESIGN</h3>
-						<p>Vivamus viverra nibh in quam bibendum interdum. Duis convallis est ante, id pulvinar tortor tempus sed. Pellentesque nulla tellus,</p>
-					</div>
-				</div>
-				<div class="col-md-3 design-left">
-					<div class="design-text">
-						<img src="<?php echo bloginfo('template_url') ?>/images/design-4.png" alt="" />
-						<h3>BUILD</h3>
-						<p>Vivamus viverra nibh in quam bibendum interdum. Duis convallis est ante, id pulvinar tortor tempus sed. Pellentesque nulla tellus,</p>
-					</div>
-				</div>
-				<div class="clearfix"></div>
 			</div>
-		</div>
+			<ul class="features">
+				<li><?php echo $row1["field1"]; ?></li>
+				<li><?php echo $row1["field2"]; ?></li>
+				<li><?php echo $row1["field3"]; ?></li>
+				<li><?php echo $row1["field4"]; ?></li>
+				<li><?php echo $row1["field5"]; ?></li>
+			</ul>
+			<div class="footer">
+				<a href="#" class="action_button">Buy Now</a>
+			</div>
+		</li>
+		<?php
+			$table2 = "SELECT * FROM pricingTable WHERE name LIKE 'Premium'";
+			$result2 = mysqli_query($connection , $table2);
+			$row2 = mysqli_fetch_assoc($result2);
+		?>
+		<li class="price_block">
+			<h3><?php echo $row2["name"]; ?></h3>
+			<div class="price">
+				<div class="price_figure">
+					<span class="price_number">$<?php echo $row2["price"]; ?></span>
+					<span class="price_tenure">per month</span>
+				</div>
+			</div>
+			<ul class="features">
+				<li><?php echo $row2["field1"]; ?></li>
+				<li><?php echo $row2["field2"]; ?></li>
+				<li><?php echo $row2["field3"]; ?></li>
+				<li><?php echo $row2["field4"]; ?></li>
+				<li><?php echo $row2["field5"]; ?></li>
+			</ul>
+			<div class="footer">
+				<a href="#" class="action_button">Buy Now</a>
+			</div>
+		</li>
+		
+	</ul>
+
 	</div>
 	<!--End-design-->
 	<!--start-work-->
 	<div class="work">
 		<div class="container">
-			<div class="work-top">
-				<h3>OUR LATEST WORK</h3>
-			</div>
-			<div class="work-btm">
-			<div  id="top" class="callbacks_container">
-				<ul class="rslides" id="slider5">
-					<li>	
-							<div class="work-bottom">
-								<div class="col-md-6 work-left">
-									<img src="<?php echo bloginfo('template_url') ?>/images/work-1.jpg" alt="">
-								</div>
-								<div class="col-md-6 work-right">
-									<div class="work-mian">
-										<p>PROJECT NAME<span class="one">: Project name here</span></p>
-										<p>LOCATION<span class="two">: Austin, TX</span></p>
-										<p>OWNER<span class="tre">: John Doe</span></p>
-										<p>PROJECT START<span class="fvr">: Feb 2013</span></p>
-										<p>PROJECT END<span class="fve">: JUNE 2014</span></p>
-									</div>
-										<div class="work-one">
-											<p>DESCRIPTION<label>:</label><span>Vivamus viverra nibh in quam bibendum interdum. Duis convallis est ante, id pulvinar tortor tempus sed. Pellentesque nulla tellus, Vivamus viverra nibh in quam bibendum interdum.  Duis convallis est ante, id pulvinar tortor tempus sed.  Pellentesque nulla tellus,</span></p>
-										</div>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="pop-up">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><span> </span><img src="<?php echo bloginfo('template_url') ?>/images/pop-up.png" alt="" /></a>
-							</div>
-						</li>
-						<li>	
-							<div class="work-bottom">
-								<div class="col-md-6 work-left">
-									<img src="<?php echo bloginfo('template_url') ?>/images/work-2.jpg" alt="">
-								</div>
-								<div class="col-md-6 work-right">
-									<div class="work-mian">
-										<p>PROJECT NAME<span class="one">: Project name here</span></p>
-										<p>LOCATION<span class="two">: Austin, TX</span></p>
-										<p>OWNER<span class="tre">: John</span></p>
-										<p>PROJECT START<span class="fvr">: JUNE 2013</span></p>
-										<p>PROJECT END<span class="fve">: JAN 2014</span></p>
-									</div>
-										<div class="work-one">
-											<p>DESCRIPTION<label>:</label><span> Viverra nibh in quam bibendum interdum. Duis convallis est ante, id pulvinar tortor tempus sed. Pellentesque nulla tellus, Vivamus viverra nibh in quam bibendum interdum.  Duis convallis est ante, id pulvinar tortor tempus sed.  Pellentesque nulla tellus,</span></p>
-										</div>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="pop-up">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog1"><span> </span><img src="<?php echo bloginfo('template_url') ?>/images/pop-up.png" alt="" /></a>
-							</div>
-						</li>
-						<li>	
-							<div class="work-bottom">
-								<div class="col-md-6 work-left">
-									<img src="<?php echo bloginfo('template_url') ?>/images/work-3.jpg" alt="">
-								</div>
-								<div class="col-md-6 work-right">
-									<div class="work-mian">
-										<p>PROJECT NAME<span class="one">: Project name here</span></p>
-										<p>LOCATION<span class="two">: Austin, TX</span></p>
-										<p>OWNER<span class="tre">: Doe</span></p>
-										<p>PROJECT START<span class="fvr">: NOV 2013</span></p>
-										<p>PROJECT END<span class="fve">: FEB 2014</span></p>
-									</div>
-										<div class="work-one">
-											<p>DESCRIPTION<label>:</label><span>Vivamus quam bibendum interdum. Duis convallis est ante, id pulvinar tortor tempus sed. Pellentesque nulla tellus, Vivamus viverra nibh in quam bibendum interdum.  Duis convallis est ante, id pulvinar tortor tempus sed.  Pellentesque nulla tellus,</span></p>
-										</div>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="pop-up">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog2"><span> </span><img src="<?php echo bloginfo('template_url') ?>/images/pop-up.png" alt="" /></a>
-							</div>
-						</li>
-							</ul>
-						</div>
+			
 					<div class="clearfix"></div>
 			</div>
 		</div>
@@ -469,4 +415,4 @@
 		</div>
 	</div>
 	<!--end-news-->	
-	
+	<?php get_footer(); ?>

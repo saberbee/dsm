@@ -4,16 +4,6 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
- #nav li ul
-    {
-        display: none;
-        position: absolute;
-        top: 100%;
-    }
-        #nav li:hover ul
-        {
-            display: block;
-        }
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -110,8 +100,6 @@ nav ul {
 	padding: 0;
 	float: right;
 	padding-top: 2px;
-	        position: absolute;
-
 	color:#dce3e4;
 }
 nav li {
@@ -1898,10 +1886,6 @@ nav a {
 }
 }
 @media (max-width:640px){
-	 #nav li ul
-    {
-        position: static;
-    }
 .quote a {
 	font-size: 15px;
 	padding: 5px 17px;
