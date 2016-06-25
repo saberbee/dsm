@@ -72,9 +72,9 @@
 			<nav class="top-nav">
 				<ul class="top-nav">
 					<li><a href="index.html"  class="active">Home</a></li>
-					<li><a href="faq">FAQ</a></li>
+					<li><a href="<?php echo site_url(); ?>/faq">FAQ</a></li>
 					<li><a href="about.html">About us</a></li>
-					<li><a href="contact.html">Contact us</a></li>
+					<li><a href="<?php echo site_url(); ?>/contactus">Contact us</a></li>
 				</ul>
 					<a href="#" id="pull"><img src="<?php echo bloginfo('template_url') ?>/images/menu-icon.png" title="menu" /></a>
 			</nav>
