@@ -252,106 +252,6 @@
 				});
 			</script>
 		<!-- //requried-jsfiles-for owl -->
-	<!--start-project-->
-		<!-- start content_slider -->
-	<div class="project">
-		<div id="example1">
-			<div id="owl-demo" class="owl-carousel text-center">
-				<div class="item">
-					<a href="images/zoom-1.jpg" title="Home" rel="title1">
-						<img class="lazyOwl" data-src="<?php echo bloginfo('template_url') ?>/images/project-1.jpg" alt="name">
-					</a>
-					<div class="project-name">
-						<p>Project title here</p>
-						<span> </span>
-					</div>
-				</div>
-				<div class="item">
-					<a href="images/project-2.jpg" title="Home" rel="title1">
-						<img class="lazyOwl" data-src="<?php echo bloginfo('template_url') ?>/images/project-2.jpg" alt="name">
-					</a>
-					<div class="project-name">
-						<p>Project title here</p>
-						<span> </span>
-					</div>
-				</div>
-				<div class="item">
-					<a href="images/project-3.jpg" title="Home" rel="title1">
-						<img class="lazyOwl" data-src="<?php echo bloginfo('template_url') ?>/images/project-3.jpg" alt="name">
-					</a>
-					<div class="project-name">
-						<p>Project title here</p>
-						<span> </span>
-					</div>
-				</div>
-				<div class="item">
-					<a href="images/project-4.jpg" title="Home" rel="title1">
-						<img class="lazyOwl" data-src="<?php echo bloginfo('template_url') ?>/images/project-4.jpg" alt="name">
-					</a>
-					<div class="project-name">
-						<p>Project title here</p>
-						<span> </span>
-					</div>
-				</div>
-				<div class="item">
-					<a href="images/project-5.jpg" title="Home" rel="title1">
-						<img class="lazyOwl" data-src="<?php echo bloginfo('template_url') ?>/images/project-5.jpg" alt="name">
-					</a>
-					<div class="project-name">
-						<p>Project title here</p>
-						<span> </span>
-					</div>
-				</div>
-				<div class="item">
-					<a href="images/project-1.jpg" title="Home" rel="title1">
-						<img class="lazyOwl" data-src="<?php echo bloginfo('template_url') ?>/images/project-1.jpg" alt="name">
-					</a>
-					<div class="project-name">
-						<p>Project title here</p>
-						<span> </span>
-					</div>
-				</div>
-				<div class="item">
-					<a href="images/project-2.jpg" title="Home" rel="title1">
-						<img class="lazyOwl" data-src="<?php echo bloginfo('template_url') ?>/images/project-2.jpg" alt="name">
-					</a>
-					<div class="project-name">
-						<p>Project title here</p>
-						<span> </span>
-					</div>
-				</div>
-				<div class="item">
-					<a href="images/project-3.jpg" title="Home" rel="title1">
-						<img class="lazyOwl" data-src="<?php echo bloginfo('template_url') ?>/images/project-3.jpg" alt="name">
-					</a>
-					<div class="project-name">
-						<p>Project title here</p>
-						<span> </span>
-					</div>
-				</div>
-				<div class="item">
-					<a href="images/project-4.jpg" title="Home" rel="title1">
-						<img class="lazyOwl" data-src="<?php echo bloginfo('template_url') ?>/images/project-4.jpg" alt="name">
-					</a>
-					<div class="project-name">
-						<p>Project title here</p>
-						<span> </span>
-					</div>
-				</div>
-				<div class="item">
-					<a href="images/project-5.jpg" title="Home" rel="title1">
-						<img class="lazyOwl" data-src="<?php echo bloginfo('template_url') ?>/images/project-5.jpg" alt="name">
-					</a>
-					<div class="project-name">
-						<p>Project title here</p>
-						<span> </span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-			<!--//sreen-gallery-cursual---->
-	<!--end-project-->	
 	<!--start-clients-->	
 	<div class="clients">
 		<div class="container">
@@ -409,65 +309,67 @@
 			    });
 			  </script>
 			<!--End-slider-script-->	
-	<!--start-news-->	
-	<div class="news">
-		<div class="container">
-			<div class="news-top">
-				<h3>OUR LATEST NEWS</h3>
-				<p>be always on the wave of latest news and updates</p>
-			</div>
-			<div class="news-bottom">
-				<div class="col-md-4 news-left">
-					<img src="<?php echo bloginfo('template_url') ?>/images/news-1.jpg" alt="" />
-					<div class="news-main">
-						<h4>Upadate news title</h4>
-						<ul>
-							<li><span>By:Admin</span></li>
-							<li><span>01/01/2014</span></li>
-							<li><span>5 Comment</span></li>
-						</ul>
-						<p>Vivamus viverra nibh in quam bibendum interdum. Duis convallis est ante, id pulvinar tortor tempus sed. Pellentesque nulla tellus,id pulvinar tortor tempus sed. Pellentesque nulla tellus,</p>
-						<div class="news-btn">
-							<a href="#">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 news-left">
-					<img src="<?php echo bloginfo('template_url') ?>/images/news-2.jpg" alt="" />
-					<div class="news-main">
-						<h4>Upadate news title</h4>
-						<ul>
-							<li><span>By:Admin</span></li>
-							<li><span>01/01/2014</span></li>
-							<li><span>5 Comment</span></li>
-						</ul>
-						<p>Vivamus viverra nibh in quam bibendum interdum. Duis convallis est ante, id pulvinar tortor tempus sed. Pellentesque nulla tellus,id pulvinar tortor tempus sed. Pellentesque nulla tellus,</p>
-						<div class="news-btn">
-							<a href="#">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 news-left">
-					<img src="<?php echo bloginfo('template_url') ?>/images/news-3.jpg" alt="" />
-					<div class="news-main">
-						<h4>Upadate news title</h4>
-						<ul>
-							<li><span>By:Admin</span></li>
-							<li><span>01/01/2014</span></li>
-							<li><span>5 Comment</span></li>
-						</ul>
-						<p>Vivamus viverra nibh in quam bibendum interdum. Duis convallis est ante, id pulvinar tortor tempus sed. Pellentesque nulla tellus,id pulvinar tortor tempus sed. Pellentesque nulla tellus,</p>
-						<div class="news-btn">
-							<a href="#">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="planning">
-				<p>PRECISE PROJECT PLANNING, MODERN DESIGN AND SATISFYING RESULTS!</p>
-			</div>
-		</div>
+	<!--start-news-->
+	<?php $feed = 'https://rss.dailyfx.com/feeds/forex_market_news';
+// $feed_to_array = (array) simplexml_load_file($feed);
+$feed_to_array = new SimpleXmlElement( file_get_contents($feed) );
+// print_r($feed_to_array->channel->item[2]->description);
+?>
+<div class="news">
+<h1 style="margin-left:2%">Latest Market News</h1>
+ <div class="block-hdnews" style="width:400px;margin-bottom: 10px;margin-left: 10px; background-color:#2b8ccf;">
+          <div class="list-wrpaaer" style="height:380px">
+             <ul class="list-aggregate" id="marquee-vertical">
+             <?php foreach ($feed_to_array->channel->item as $item) { ?>
+               <li>
+                 <p>
+                   <?php echo $item->description?>             
+                 </p>
+               </li>
+               <?php } ?>
+
+             </ul>
+          </div><!-- list-wrpaaer -->
+
+      </div> <!-- block-hdnews -->
 	</div>
 	<!--end-news-->	
+	<?php 
+
+	?>
 	<?php get_footer(); ?>
+
+
+	<script type="text/javascript">
+  
+  $(function(){
+
+
+  $('#marquee-vertical').marquee();  
+  $('#marquee-horizontal').marquee({direction:'horizontal', delay:0, timing:50});  
+
+});
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">
+	.news {
+    padding-top: 1%;
+}
+    .header {
+    height: inherit;
+}
+</style>

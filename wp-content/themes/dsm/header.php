@@ -12,11 +12,17 @@
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/responsive-nav.css">
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/pricing.css">
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/style_faq.css"> <!-- Resource style -->
-	<link href="<?php echo bloginfo('template_url') ?>/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+	<link href="<?php echo bloginfo('template_url') ?>/css/bootstrapp.min.css" rel='stylesheet' type='text/css' />
 	<link href="<?php echo bloginfo('template_url') ?>/css/pricing_table.css" rel='stylesheet' type='text/css' />
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700' rel='stylesheet' type='text/css'>
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="<?php echo bloginfo('template_url') ?>/js/modernizr.js"></script> <!-- Modernizr -->
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="<?php echo bloginfo('template_url') ?>/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo bloginfo('template_url') ?>/css/themes/simple.min.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo bloginfo('template_url') ?>/js/dist/js/jquery.marquee.js"></script>
+
 
 <script src="<?php echo bloginfo('template_url') ?>/js/pricing.js"></script>
 <script src="<?php echo bloginfo('template_url') ?>/js/responsive-nav.js"></script>
@@ -76,9 +82,9 @@
 			<nav class="top-nav">
 				<ul class="top-nav">
 					<li><a href="index.html"  class="active">Home</a></li>
-					<li><a href="faq">FAQ</a></li>
+					<li><a href="<?php echo site_url(); ?>/faq">FAQ</a></li>
 					<li><a href="about.html">About us</a></li>
-					<li><a href="contact.html">Contact us</a></li>
+					<li><a href="<?php echo site_url(); ?>/contactus">Contact us</a></li>
 				</ul>
 					<a href="#" id="pull"><img src="<?php echo bloginfo('template_url') ?>/images/menu-icon.png" title="menu" /></a>
 			</nav>
