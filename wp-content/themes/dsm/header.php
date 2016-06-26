@@ -13,6 +13,12 @@
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/pricing.css">
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/style_faq.css"> <!-- Resource style -->
 <script src="js/modernizr.js"></script> <!-- Modernizr -->
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="<?php echo bloginfo('template_url') ?>/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo bloginfo('template_url') ?>/css/themes/simple.min.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo bloginfo('template_url') ?>/js/dist/js/jquery.marquee.js"></script>
+
 
 <script src="<?php echo bloginfo('template_url') ?>/js/pricing.js"></script>
 <script src="<?php echo bloginfo('template_url') ?>/js/responsive-nav.js"></script>
