@@ -313,4 +313,8 @@ $feed_to_array = new SimpleXmlElement( file_get_contents($feed) );
 <style type="text/css">
 	.news {
     padding-top: 1%;
+}
+    .header {
+    height: inherit;
+}
 </style>
