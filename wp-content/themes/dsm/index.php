@@ -315,7 +315,7 @@
 $feed_to_array = new SimpleXmlElement( file_get_contents($feed) );
 // print_r($feed_to_array->channel->item[2]->description);
 ?>
-<div class="news">
+<div class="news" style="background-image: url('<?php echo bloginfo("template_url")?>/images/girl.png');background-repeat:no-repeat;">
 <h1 style="margin-left:2%">Latest Market News</h1>
  <div class="block-hdnews" style="width:400px;margin-bottom: 10px;margin-left: 10px; background-color:#2b8ccf;">
           <div class="list-wrpaaer" style="height:380px">
