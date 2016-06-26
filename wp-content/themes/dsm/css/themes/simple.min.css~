@@ -70,4 +70,4 @@ background-color:#0f3fa1
 
 .list-aggregate li p { color: #fff; padding:0 10px; }
 
-.list-aggregate li:hover { background-color: #fc6d58 }
+.list-aggregate li:hover { background-color: #1776b7 }

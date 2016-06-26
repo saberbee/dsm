@@ -262,7 +262,7 @@ $feed_to_array = new SimpleXmlElement( file_get_contents($feed) );
 ?>
 <div class="news">
 <h1 style="margin-left:2%">Latest Market News</h1>
- <div class="block-hdnews" style="width:400px;margin-bottom: 10px;    margin-left: 10px; background-color:#312850;">
+ <div class="block-hdnews" style="width:400px;margin-bottom: 10px;margin-left: 10px; background-color:#2b8ccf;">
           <div class="list-wrpaaer" style="height:380px">
              <ul class="list-aggregate" id="marquee-vertical">
              <?php foreach ($feed_to_array->channel->item as $item) { ?>
