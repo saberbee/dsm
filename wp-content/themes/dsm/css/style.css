@@ -126,6 +126,7 @@ nav a:hover{
 nav a#pull {
 	display: none;
 }
+
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 768px) {
 	nav { 
@@ -232,7 +233,7 @@ nav a#pull {
 .banner-2{
 	background:url(../images/banner-2.jpg) no-repeat;
 	background-size:100% 100%;
-	min-height: 600px;
+	min-height: 350px;
 }
 .banner-3{
 	background:url(../images/banner-3.jpg) no-repeat;
@@ -1273,7 +1274,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	padding: 8em 0px;
 }
 .banner-1,.banner-2,.banner-3{
-	min-height: 550px;
+	min-height: 350px;
 }
 .planning {
 	width: 1139px;
@@ -1283,7 +1284,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 @media (max-width:1280px){
 .banner-1,.banner-2,.banner-3{
-	min-height: 525px;
+	min-height: 325px;
 }
 .planning p {
 	font-size: 1.9em;
@@ -1310,6 +1311,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }	
 }
 @media (max-width:1024px){
+	
 .about-main h3, .team-main h3, .contact-top h3 {
 	font-size: 1.8em;
 	color: #595959;
@@ -1358,7 +1360,7 @@ nav {
 	margin-top: 7px;
 }
 .banner-1, .banner-2, .banner-3 {
-	min-height: 450px;
+	min-height: 350px;
 }
 .build-right a {
 	padding: 14px 17px;
@@ -1936,7 +1938,7 @@ nav a#pull img {
 	margin-top: 3px;
 }
 .banner-1, .banner-2, .banner-3 {
-	min-height: 265px;
+	min-height: 165px;
 }
 .build-left h1 {
 	font-size: 1.45em;
@@ -2129,7 +2131,7 @@ nav a#pull img {
 	width: 100%;
 }
 .banner-1, .banner-2, .banner-3 {
-	min-height: 220px;
+	min-height: 120px;
 }
 .callbacks_tabs {
 	top: 84%;

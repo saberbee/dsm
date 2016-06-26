@@ -58,7 +58,7 @@
 	<!--End-build-->	
 	<!--start-design-->	
 	<div class="design">
-		<ul class="pricing_table">
+		<!-- <ul class="pricing_table">
 		<?php
 			$connection = mysqli_connect("localhost" , "root" , "xwwx11" , "dsm");
 			$ssql = "SET CHARACTER SET utf8";
@@ -111,7 +111,62 @@
 			</div>
 		</li>
 		
-	</ul>
+	</ul> -->
+<div class="container">
+	<!--Begin Plan Basic!-->
+	<div class="col-md-3 klausbg hvr-float">
+		
+	</div>
+	<div class="col-md-3 klausbg hvr-float">
+		<div class="klausheader">
+		<h5>Basic</h5>
+		<span class="klaus_package">package</span>
+		<span class="klaus_price skinthreecolor">19,95 $</span>
+		<p>/per month</p>
+		</div>
+		
+		<div class="klaus_features skinthreeklaus_features">
+		<li><i class="fa fa-check-circle"></i> Design + HTML5 </li>
+		<li class="klaus_plancolor"><i class="fa fa-check-circle"></i> One Page Scroll-down Layout</li>
+		<li><i class="fa fa-check-circle"></i> Pricing is for 5 vert. sections</li>
+		<li class="klaus_plancolor"><i class="fa fa-times-circle"></i> Responsive / Mobile Ready</li>
+		<li><i class="fa fa-times-circle"></i> Bootstrap Framework</li>
+		<li class="klaus_plancolor"><i class="fa fa-times-circle"></i> CSS3 &amp; jQuery Powered</li>
+		</div>	
+		
+		<div class="klaus_getaquote skinthreegetquote"><li><a href="#">GET A QUOTE</a></li></div>
+	</div>
+	<!--End Plan Basic!-->
+	
+	
+	<!--Begin Plan Business!-->
+	
+	<!--End Plan Business!-->
+	
+	<!--Begin Plan Ultimate!-->
+	<div class="col-md-3 klausbg skinthreeultimate hvr-float">
+		<div class="klausheader skinthreeucolor">
+		<h5>Ultimate</h5>
+		<span class="klaus_package">package</span>
+		<span class="klaus_price skinthreecolor">49,95 $</span>
+		<p>/per month</p>
+		</div>
+		
+		<div class="klaus_features skinthreeklaus_features skinthreeucolor">
+		<li><i class="fa fa-check-circle"></i> Design + HTML5 </li>
+		<li class="skinthreeklaus_plancolor"><i class="fa fa-check-circle"></i> One Page Scroll-down Layout</li>
+		<li><i class="fa fa-check-circle"></i> Pricing is for 5 vert. sections</li>
+		<li class="skinthreeklaus_plancolor"><i class="fa fa-times-circle"></i> Responsive / Mobile Ready</li>
+		<li><i class="fa fa-times-circle"></i> Bootstrap Framework</li>
+		<li class="skinthreeklaus_plancolor"><i class="fa fa-times-circle"></i> CSS3 &amp; jQuery Powered</li>
+		</div>	
+		
+		<div class="klaus_getaquote skinthreegetquote skinthreeucolorget"><li><a href="#">GET A QUOTE</a></li></div>
+	</div>
+	<!--End Plan Ultimate!-->
+	<div class="col-md-3 klausbg hvr-float" style="border-right: 1px solid #ffffff;">
+			</div>
+</div>
 
 	</div>
 	<!--End-design-->

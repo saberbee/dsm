@@ -12,7 +12,11 @@
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/responsive-nav.css">
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/pricing.css">
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/style_faq.css"> <!-- Resource style -->
-<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link href="<?php echo bloginfo('template_url') ?>/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+	<link href="<?php echo bloginfo('template_url') ?>/css/pricing_table.css" rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700' rel='stylesheet' type='text/css'>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="<?php echo bloginfo('template_url') ?>/js/modernizr.js"></script> <!-- Modernizr -->
 
 <script src="<?php echo bloginfo('template_url') ?>/js/pricing.js"></script>
 <script src="<?php echo bloginfo('template_url') ?>/js/responsive-nav.js"></script>
