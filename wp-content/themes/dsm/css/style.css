@@ -46,7 +46,7 @@ body a{
 }
 .top-nav ul li a:hover,.top-nav ul li a.active{
 	color:#fff;
-	background:#e9b10a;
+	background:#2b8ccf;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -65,7 +65,7 @@ body a{
 	font-weight: 400;
 	background: #171717;
 	letter-spacing: 2px;
-	color: #cbb814;
+	color: #2b8ccf;
 	padding: 8px 33px;
 	border-radius: 0.3em;
 	-webkit-border-radius: 0.3em;
@@ -76,7 +76,7 @@ body a{
 .quote a:hover{
 	color: #fff;
 	text-decoration:none;
-	background: #e9b10a;
+	background: #2b8ccf;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -461,7 +461,7 @@ nav a#pull {
   background:#fff;
 }
 .callbacks_here a:after{
-	background:#e9b10a;
+	background:#2b8ccf;
 }
 ul.callbacks_tabs.callbacks2_tabs {
 	display: none;
@@ -470,7 +470,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 /*--end-banner--*/
 /*--start-build--*/
 .build{
-	background:#e9b10a;
+	background:#2b8ccf;
 	padding:1.2em 0px;
 }
 .build-left h1{
@@ -506,7 +506,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	-ms-border-radius: 0.3em;
 }
 .build-right a:hover{
-	color: #e9b10a;
+	color: #2b8ccf;
 	text-decoration:none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -645,7 +645,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	cursor: pointer;
 }
 .item:hover div.project-name{
-	background: #ebb30a;
+	background: #2b8ccf;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -673,7 +673,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	line-height: 1.4em;
 }
 .clients-top h3 span{
-	color:#ebb30a;
+	color:#2b8ccf;
 	font-weight: 300;
 }
 .clients-btm{
@@ -692,7 +692,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .clients-bottom h4{
 	font-size:1.3em;
 	font-weight:400;
-	color:#ebb30a;
+	color:#2b8ccf;
 	margin: 1.2em 0px 0px 0px;
 }
 .clients-bottom h4 span{
@@ -760,7 +760,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	color: #000;
 	font-size: 15px;
 	font-weight: 400;
-	background: url(../images/heart.png) no-repeat 0px 0px #ebb30a;
+	background: url(../images/heart.png) no-repeat 0px 0px #2b8ccf;
 }
 .news-btn {
 	bottom: 0;
@@ -769,7 +769,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .news-btn a:hover{
 	color: #fff;
-	background: url(../images/heart.png) no-repeat 0px 0px #ebb30a;
+	background: url(../images/heart.png) no-repeat 0px 0px #2b8ccf;
 	text-decoration:none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -863,7 +863,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	text-align:left;
 }
 .touch-left h3 {
-	color: #ebb30a;
+	color: #2b8ccf;
 	font-size: 2em;
 	font-weight: 400;
 	margin-bottom: 13px;
@@ -879,7 +879,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	color:#fff;
 }
 .touch-left p a:hover{
-	color:#ebb30a;
+	color:#2b8ccf;
 	text-decoration:none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -910,7 +910,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	color: #fff;
 }
 .footer-text p a:hover {
-	color: #e9b10a;
+	color: #2b8ccf;
 	text-decoration: none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -931,7 +931,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .error-main h1 {
 	font-size: 15em;
-	color: #e9b10a;
+	color: #2b8ccf;
 	font-weight: 700;
 	margin: 0px;
 	letter-spacing: -25px;
@@ -961,7 +961,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	margin-top: 3%;
 }
 .err-bttn a:hover {
-	background: #e9b10a;
+	background: #2b8ccf;
 }
 .error-main {
 	text-align: center;
@@ -1108,7 +1108,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	-ms-border-radius: 0.3em;
 }
 .contact-but input[type="submit"]:hover {
-	background: #ebb30a;
+	background: #2b8ccf;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -1195,7 +1195,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	font-size: 22px;
 }
 .get-btn [type="submit"]:hover{
-	background: #e9b10a;
+	background: #2b8ccf;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -1232,10 +1232,10 @@ ul.callbacks_tabs.callbacks2_tabs {
 	font-size: 17px;
 }
 .get-btm-top ul li a span{
-	color: #e9b10a;
+	color: #2b8ccf;
 }
 .get-btm-top ul li a:hover {
-	color: #e9b10a;
+	color: #2b8ccf;
 	text-decoration: none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
