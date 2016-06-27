@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/style_faq.css"> <!-- Resource style -->
 	<link href="<?php echo bloginfo('template_url') ?>/css/bootstrapp.min.css" rel='stylesheet' type='text/css' />
 	<link href="<?php echo bloginfo('template_url') ?>/css/pricing_table.css" rel='stylesheet' type='text/css' />
+	<link href="<?php echo bloginfo('template_url') ?>/css/dropdown.css" rel='stylesheet' type='text/css' />
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700' rel='stylesheet' type='text/css'>
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="<?php echo bloginfo('template_url') ?>/js/modernizr.js"></script> <!-- Modernizr -->
@@ -76,7 +77,13 @@
 				<a href="index.html"><img src="<?php echo bloginfo('template_url') ?>/images/logo.png" alt=""></a>  
 			</div>
 			<div class="quote">
-				<a href="quote.html">GET A QUOTE</a>
+				<span class="custom-dropdown big">
+   					 <select>    
+       					 <option>New Account</option>
+        				 <option>Deposit</option>  
+						 <option>Withdrawk</option>
+  					 </select>
+				</span>
 			</div>
 			<!--start-top-nav-->
 			<nav class="top-nav">

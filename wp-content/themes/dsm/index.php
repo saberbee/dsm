@@ -49,8 +49,9 @@
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 				<div class="col-md-4 build-right">
-					<a href="#">GET A QUOTE FOR FREE</a>
+					<a href="#">New Account</a>
 				</div>
+
 				<div class="clearfix"></div>
 			</div>
 		</div>
@@ -317,7 +318,7 @@ $feed_to_array = new SimpleXmlElement( file_get_contents($feed) );
 ?>
 <div class="news" style="background-image: url('<?php echo bloginfo("template_url")?>/images/girl.png');background-repeat:no-repeat;">
 <h1 style="margin-left:2%">Latest Market News</h1>
- <div class="block-hdnews" style="width:400px;margin-bottom: 10px;margin-left: 10px; background-color:#2b8ccf;">
+ <div class="block-hdnews" style="width:400px;margin-bottom: 10px;margin-left: 10px; float: left; background-color:#2b8ccf;">
           <div class="list-wrpaaer" style="height:380px">
              <ul class="list-aggregate" id="marquee-vertical">
              <?php foreach ($feed_to_array->channel->item as $item) { ?>
@@ -332,11 +333,9 @@ $feed_to_array = new SimpleXmlElement( file_get_contents($feed) );
           </div><!-- list-wrpaaer -->
 
       </div> <!-- block-hdnews -->
-	</div>
+		</div>
 	<!--end-news-->	
-	<?php 
-
-	?>
+	
 	<?php get_footer(); ?>
 
 

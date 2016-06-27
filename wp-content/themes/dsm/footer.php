@@ -31,6 +31,17 @@
 <script>
   var nav = responsiveNav(".nav-collapse");
 </script>			
+<script>
+(function(){
+	/*1*/var customSelects = document.querySelectorAll(".custom-dropdown__select");
+	/*2*/for(var i=0; i<customSelects.length; i++){
+		if (customSelects[i].hasAttribute("disabled")){
+			customSelects[i].parentNode.className += " custom-dropdown--disabled";
+		}
+	}	
+})()
+</script>
+
 <script src="<?php echo bloginfo('template_url') ?>/js/jquery.mobile.custom.min.js"></script>
 <script src="<?php echo bloginfo('template_url') ?>/js/main.js"></script> <!-- Resource jQuery -->
 </body>

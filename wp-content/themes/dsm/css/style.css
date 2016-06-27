@@ -228,7 +228,7 @@ nav a#pull {
 .banner-1{
 	background:url(../images/banner-1.jpg) no-repeat;
 	background-size:100% 100%;
-	min-height: 600px;
+	min-height: 350px;
 }
 .banner-2{
 	background:url(../images/banner-2.jpg) no-repeat;
@@ -238,7 +238,7 @@ nav a#pull {
 .banner-3{
 	background:url(../images/banner-3.jpg) no-repeat;
 	background-size:100% 100%;
-	min-height: 600px;
+	min-height: 350px;
 }
 /*------------------ Slider Part starts Here----------*/
 .slider{
@@ -701,6 +701,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 /*--end-clients--*/
 /*--start-news--*/
 .news {
+	height: 535px;
 	padding-top: 5em;
 }
 .news-top{
