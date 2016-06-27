@@ -99,3 +99,16 @@
 		</div>
 	</div>
 	<!--end-header-->
+
+	</script>
+<style type="text/css">
+	.news {
+    padding-top: 1%;
+}
+    .header {
+    height: inherit;
+}
+    .Wtopmenu2 {
+    line-height: 23px !important;
+}
+</style>

@@ -317,6 +317,7 @@ $feed_to_array = new SimpleXmlElement( file_get_contents($feed) );
 // print_r($feed_to_array->channel->item[2]->description);
 ?>
 <div class="news" style="background-image: url('<?php echo bloginfo("template_url")?>/images/girl.png');background-repeat:no-repeat;">
+<div style="width:30%"> </div>
 <h1 style="margin-left:2%">Latest Market News</h1>
  <div class="block-hdnews" style="width:400px;margin-bottom: 10px;margin-left: 10px; float: left; background-color:#2b8ccf;">
           <div class="list-wrpaaer" style="height:380px">
@@ -333,42 +334,22 @@ $feed_to_array = new SimpleXmlElement( file_get_contents($feed) );
           </div><!-- list-wrpaaer -->
 
       </div> <!-- block-hdnews -->
-		</div>
+	<div style="float:right ;margin-right:1%" >
+	<h1 style="margin-top: -17%;">Exchange Rate</h1>
+      <div "><div align="center" style="margin: 0px; padding: 0px; border: 2px solid rgb(136, 136, 136); width: 280px; background-color: transparent;"><noscript><div align="center" style="width: 100%;  margin: 0px; padding: 0px; text-align: center; color: rgb(0, 0, 0); background-color: transparent;"><a href="http://fx-rate.net/EGP/" style="text-decoration: none; font-size: 20px; font-weight: bold; text-align: center; color: rgb(0, 0, 0);"><img src="http://fx-rate.net/images/countries/eg.png" style="margin: 0px; padding: 0px; border: none;"> Egyptian Pound Exchange Rate</a></div></noscript><script type="text/javascript" src="http://fx-rate.net/fx-rates2.php?label_name=Egyptian Pound Exchange Rate&lab=0&width=215&currency=EGP&cp1_Hex=000000&cp2_Hex=3e9ad9&cp3_Hex=4c75d1&hbg=1&flag_code=eg&length=long&label_type=currency_name&cp=000000,2b8ccf,4c75d1&cid=EUR,USD,AED,AFN,ALL,AMD,AUD,CNY,JOD,SAR,BHD,UAH,GBP&lang=en"></script></div></div>	
+      </div>
+
+      </div>
+	</div>
 	<!--end-news-->	
-	
-	<?php get_footer(); ?>
+<?php get_footer(); ?>
 
 
 	<script type="text/javascript">
-  
   $(function(){
-
-
   $('#marquee-vertical').marquee();  
   $('#marquee-horizontal').marquee({direction:'horizontal', delay:0, timing:50});  
 
 });
 
 </script>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<style type="text/css">
-	.news {
-    padding-top: 1%;
-}
-    .header {
-    height: inherit;
-}
-</style>
