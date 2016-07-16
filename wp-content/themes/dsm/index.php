@@ -45,11 +45,11 @@
 		<div class="container">
 			<div class="build-mian">
 				<div class="col-md-8 build-left">
-					<h1>WE READY TO BUILD<span>YOUR HOME</span></h1>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<h1>*Very Tight Spreads <br> <span>*better forex Rates  </span> <br> <span style="color:white;font-weight: 300;margin: 0;">*No limits on scalping  </span> <br><span>*No Stop loss hunting  </span><br> <span style="color:white;font-weight: 300;margin: 0;">*No conflict of interest between <span> MGM </span> and its <span> clients. </span></span></h1>
+
 				</div>
 				<div class="col-md-4 build-right">
-					<a href="#">New Account</a>
+					<a href="#">Download Our Software</a>
 				</div>
 
 				<div class="clearfix"></div>
@@ -59,74 +59,19 @@
 	<!--End-build-->	
 	<!--start-design-->	
 	<div class="design">
-		<!-- <ul class="pricing_table">
-		<?php
-			$connection = mysqli_connect("localhost" , "root" , "xwwx11" , "dsm");
-			$ssql = "SET CHARACTER SET utf8";
-			mysqli_query($connection , $ssql);
-			$table1 = "SELECT * FROM pricingTable WHERE name LIKE 'Basic'";
-			$result1 = mysqli_query($connection , $table1);
-			$row1 = mysqli_fetch_assoc($result1);
-		?>
-		<li class="price_block">
-			<h3><?php echo $row1["name"]; ?></h3>
-			<div class="price">
-				<div class="price_figure">
-					<span class="price_number">$<?php echo $row1["price"]; ?></span>
-					<span class="price_tenure">per month</span>
-				</div>
-			</div>
-			<ul class="features">
-				<li><?php echo $row1["field1"]; ?></li>
-				<li><?php echo $row1["field2"]; ?></li>
-				<li><?php echo $row1["field3"]; ?></li>
-				<li><?php echo $row1["field4"]; ?></li>
-				<li><?php echo $row1["field5"]; ?></li>
-			</ul>
-			<div class="footer">
-				<a href="#" class="action_button">Buy Now</a>
-			</div>
-		</li>
-		<?php
-			$table2 = "SELECT * FROM pricingTable WHERE name LIKE 'Premium'";
-			$result2 = mysqli_query($connection , $table2);
-			$row2 = mysqli_fetch_assoc($result2);
-		?>
-		<li class="price_block">
-			<h3><?php echo $row2["name"]; ?></h3>
-			<div class="price">
-				<div class="price_figure">
-					<span class="price_number">$<?php echo $row2["price"]; ?></span>
-					<span class="price_tenure">per month</span>
-				</div>
-			</div>
-			<ul class="features">
-				<li><?php echo $row2["field1"]; ?></li>
-				<li><?php echo $row2["field2"]; ?></li>
-				<li><?php echo $row2["field3"]; ?></li>
-				<li><?php echo $row2["field4"]; ?></li>
-				<li><?php echo $row2["field5"]; ?></li>
-			</ul>
-			<div class="footer">
-				<a href="#" class="action_button">Buy Now</a>
-			</div>
-		</li>
 		
-	</ul> -->
 <div class="container">
 	<!--Begin Plan Basic!-->
-	<div class="col-md-3 klausbg hvr-float">
+	<div class="col-md-3 klausbg hvr-float" style="background:transparent;">
 		
 	</div>
-	<div class="col-md-3 klausbg hvr-float">
+	<div class="col-md-3 klausbg hvr-float" style="background: #d3e1ee;">
 		<div class="klausheader">
-		<h5>Basic</h5>
-		<span class="klaus_package">package</span>
-		<span class="klaus_price skinthreecolor">19,95 $</span>
-		<p>/per month</p>
+		<h5>Demo</h5>
+		<span class="klaus_package">Account</span>
 		</div>
 		
-		<div class="klaus_features skinthreeklaus_features">
+		<div class="klaus_features skinthreeklaus_features" >
 		<li><i class="fa fa-check-circle"></i> Design + HTML5 </li>
 		<li class="klaus_plancolor"><i class="fa fa-check-circle"></i> One Page Scroll-down Layout</li>
 		<li><i class="fa fa-check-circle"></i> Pricing is for 5 vert. sections</li>
@@ -147,10 +92,8 @@
 	<!--Begin Plan Ultimate!-->
 	<div class="col-md-3 klausbg skinthreeultimate hvr-float">
 		<div class="klausheader skinthreeucolor">
-		<h5>Ultimate</h5>
-		<span class="klaus_package">package</span>
-		<span class="klaus_price skinthreecolor">49,95 $</span>
-		<p>/per month</p>
+		<h5>Real</h5>
+		<span class="klaus_package">Account</span>
 		</div>
 		
 		<div class="klaus_features skinthreeklaus_features skinthreeucolor">
@@ -165,7 +108,7 @@
 		<div class="klaus_getaquote skinthreegetquote skinthreeucolorget"><li><a href="#">GET A QUOTE</a></li></div>
 	</div>
 	<!--End Plan Ultimate!-->
-	<div class="col-md-3 klausbg hvr-float" style="border-right: 1px solid #ffffff;">
+	<div class="col-md-3 klausbg hvr-float" style="background: transparent; border-right: 0px solid #ffffff;">
 			</div>
 </div>
 

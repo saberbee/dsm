@@ -5,26 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="<?php echo bloginfo('template_url') ?>/css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="<?php echo bloginfo('template_url') ?>/css/style.css" rel='stylesheet' type='text/css' />
 <script src="<?php echo bloginfo('template_url') ?>/js/jquery-1.11.0.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/responsive-nav.css">
 <link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/pricing.css">
-<link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/style_faq.css"> <!-- Resource style -->
-	<link href="<?php echo bloginfo('template_url') ?>/css/bootstrapp.min.css" rel='stylesheet' type='text/css' />
-	<link href="<?php echo bloginfo('template_url') ?>/css/pricing_table.css" rel='stylesheet' type='text/css' />
-	<link href="<?php echo bloginfo('template_url') ?>/css/dropdown.css" rel='stylesheet' type='text/css' />
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700' rel='stylesheet' type='text/css'>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<script src="<?php echo bloginfo('template_url') ?>/js/modernizr.js"></script> <!-- Modernizr -->
+<link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/style_faq.css">
+<link rel="stylesheet" href="<?php echo bloginfo('template_url') ?>/css/normalize.css">
+ <!-- Resource style -->
+<link href="<?php echo bloginfo('template_url') ?>/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo bloginfo('template_url') ?>/css/style.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo bloginfo('template_url') ?>/css/bootstrapp.min.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo bloginfo('template_url') ?>/css/pricing_table.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo bloginfo('template_url') ?>/css/dropdown.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo bloginfo('template_url') ?>/css/forms.css" rel='stylesheet' type='text/css' />
 <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 <link href="<?php echo bloginfo('template_url') ?>/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo bloginfo('template_url') ?>/css/themes/simple.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700' rel='stylesheet' type='text/css'>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="<?php echo bloginfo('template_url') ?>/js/modernizr.js"></script> <!-- Modernizr -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo bloginfo('template_url') ?>/js/dist/js/jquery.marquee.js"></script>
 
-
+<script src="<?php echo bloginfo('template_url') ?>/js/formValidate.js"></script>
 <script src="<?php echo bloginfo('template_url') ?>/js/pricing.js"></script>
 <script src="<?php echo bloginfo('template_url') ?>/js/responsive-nav.js"></script>
 <!--Start-smoth-scrolling-->
@@ -78,10 +82,11 @@
 			</div>
 			<div class="quote">
 				<span class="custom-dropdown big">
-   					 <select>    
-       					 <option>New Account</option>
-        				 <option>Deposit</option>  
-						 <option>Withdrawk</option>
+   					 <select id="list" onchange="changepage();">
+       					 <option value="empty"></option>    
+       					 <option value="new">New Account</option>
+        				 <option value="deposit">Deposit</option>  
+						 <option value="withdrawl">Withdrawl</option>
   					 </select>
 				</span>
 			</div>
@@ -99,7 +104,20 @@
 		</div>
 	</div>
 	<!--end-header-->
-
+<script type="text/javascript">
+	function changepage(){
+		var page = document.getElementById("list").value;
+		if(page == "new"){
+			window.location.href = "http://localhost/dsm/new-account/";
+		}
+		else if(page == "deposit"){
+			window.location.href = "http://localhost/dsm/";
+		}
+		else if(page == "withdrawl"){
+			window.location.href = "http://localhost/dsm";
+		}
+	}
+</script>
 	</script>
 <style type="text/css">
 	.news {

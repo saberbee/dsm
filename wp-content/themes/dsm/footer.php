@@ -46,6 +46,7 @@
 </script>
 
 <script src="<?php echo bloginfo('template_url') ?>/js/jquery.mobile.custom.min.js"></script>
+<script src="<?php echo bloginfo('template_url') ?>/js/prefixfree.min.js"></script>
 <script src="<?php echo bloginfo('template_url') ?>/js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
