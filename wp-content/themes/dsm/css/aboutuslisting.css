@@ -1,0 +1,72 @@
+.plans {
+  list-style: none;
+  margin: 0;
+  padding: 20px 40px;
+}
+.plans .plan {
+  background: #739aa2;
+  border-radius: 6px;
+  height: 60px;
+  margin: 10px 0;
+  opacity: 0.8;
+  padding: 4px 25px;
+  width: 450px;
+}
+.plans .plan:hover,
+.plans .plan.highlight {
+  opacity: 1;
+}
+.plans .plan .price {
+  border-radius: 100%;
+  cursor: default;
+  display: block;
+  float: left;
+  height: 46px;
+  line-height: 46px;
+  margin: 3px 10px 0 0;
+  text-align: center;
+  width: 46px;
+}
+.plans .plan .price.price-green {
+  background-color: #e1f1d1;
+  color: #52b327;
+}
+.plans .plan .price.price-red {
+  background-color: #f1e1d1;
+  color: #b35227;
+}
+.plans .plan .details {
+  color: #222;
+  display: block;
+  float: left;
+  height: 46px;
+  margin: 8px 0;
+  padding: 0px 10px;
+}
+.plans .plan .details .plan-title {
+  font-size: 17px;
+  font-weight: normal;
+  margin: 9px 0 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.plans .plan .details .plan-description {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.plans .plan .select {
+  background: #358cce;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  margin: 15px 0;
+  padding: 7px 16px;
+}
+.plans .plan .select:hover {
+  background-color: #459cde;
+}
