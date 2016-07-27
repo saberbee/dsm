@@ -82,8 +82,8 @@
 			</div>
 			<div class="quote">
 				<span class="custom-dropdown big">
-   					 <select id="list" onchange="changepage();">
-       					 <option value="empty"></option>    
+   					 <select id="list" onchange="changepage();" style="cursor:pointer">
+       					 <option value="empty">User Area </option>    
        					 <option value="new">New Account</option>
         				 <option value="deposit">Deposit</option>  
 						 <option value="withdrawl">Withdrawl</option>
