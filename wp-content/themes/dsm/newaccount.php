@@ -15,7 +15,7 @@ Template Name: New Account
     <div class="section"><span>1</span>First Name &amp; Address</div>
     <div class="inner-wrap">
         <label>Your Full Name 
-                <input type="text" name="name" id="name" onblur='validate_name(this.value,"namespan");'/>
+                <input type="text" name="usrname" id="usrname" onblur='validate_name(this.value,"namespan");'/>
                 <span id='namespan' style='display:none' class="cValidationErrors">Please Enter Valid Name</span>
         </label>
         <label>Address 
@@ -33,7 +33,7 @@ Template Name: New Account
         <span style="display: block;font: 13px Arial, Helvetica, sans-serif;color: #888;">Phone Number</span>
         <label>
         <input type="text" name="phone" id="phone" style="float: left;width: 50%;" onblur='validate_empty(this.value,"phonespan");'>
-  		<select style="float: right;width: 50%;">
+  		<select name="phone_type" style="float: right;width: 50%;">
 		    <option>Work</option>
 		    <option>Home</option>
 		    <option>Mobile</option>
@@ -71,12 +71,11 @@ Template Name: New Account
 <script type="text/javascript">
   function validateForm()
      {
-       var name = document.getElementById("name").value;
-       var address = document.getElementById("addess").value;
+       var name = document.getElementById("usrname").value;
+       var address = document.getElementById("address").value;
        var phone = document.getElementById("phone").value;
        var country = document.getElementById("country").value;
        var email = document.getElementById("email").value;
-
        if((document.getElementById("namespan").style.display=='block')
         ||(document.getElementById("phonespan").style.display=='block')
         ||(document.getElementById("addresspan").style.display=='block')
@@ -88,6 +87,11 @@ Template Name: New Account
         ||(country=="")
         ||(email==""))
         {
+          $("#usrname").blur();
+          $("#address").blur();
+          $("#phone").blur();
+          $("#country").blur();
+          $("#email").blur();
           return false;
         }
       else
@@ -96,3 +100,11 @@ Template Name: New Account
       }
     }
 </script>
+<style type="text/css">
+   span {
+
+    color: #2b8ccf;
+    font-weight: 700;
+    padding-top: 2px;
+  }
+</style>
