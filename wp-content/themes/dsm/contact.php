@@ -93,7 +93,9 @@ Template Name:Contacts Us
   });
   
   </script>
-
+    <script type="text/javascript">
+  document.getElementById("contactnav").className = "active";
+    </script>
   <style type="text/css">
   	.label {
   width:100px;

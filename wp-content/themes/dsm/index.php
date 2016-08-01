@@ -18,6 +18,9 @@
 	</div>
 		<!--End-banner-->
 		<!--Slider-Starts-Here-->
+		<script type="text/javascript">
+  document.getElementById("homenav").className = "active";
+		</script>
 				<script src="<?php echo bloginfo('template_url') ?>/js/responsiveslides.min.js"></script>
 			 <script>
 			    // You can also use "$(window).load(function() {"

@@ -12,7 +12,48 @@ Template Name: FAQ
 ?>
 <?php get_header(); ?>
 
-<div> <img style='width:100%' src="<?php echo bloginfo('template_url') ?>/images/about.jpg"></div>
+<div style="background-image: url('<?php echo bloginfo("template_url")?>/images/about.jpg');background-repeat:no-repeat;"> 
+<ul class="plans">
+<h3 style="font-size: 3em;color: #595959;font-weight: 600;margin: 0px;color: #2b8ccf;">Our Products </h3>
+		<li class="plan highlight">
+			<span class="price price-green" style="background-repeat: no-repeat;background-size: 43px 46px;background-image: url('http://localhost/dsm/wp-content/themes/dsm/images/forex.jpg');">
+				<!-- <img src="<?php echo bloginfo("template_url")?>/images/forex.jpg"> -->
+			</span>
+			
+			<div class="details">
+				<h1 class="plan-title">Forex</h1>
+				
+			</div>
+			
+		</li>
+		
+		<li class="plan">
+			<span class="price price-red" style="background-repeat: no-repeat;background-size: 46px 46px;background-image: url('http://localhost/dsm/wp-content/themes/dsm/images/gold.jpg');"></span>
+			
+			<div class="details">
+				<h1 class="plan-title">Gold</h1>
+			</div>
+			
+		</li>
+		<li class="plan highlight">
+			<span class="price price-green" style="background-repeat: no-repeat;background-size: 46px 46px;background-image: url('http://localhost/dsm/wp-content/themes/dsm/images/silver.jpg');"></span>
+			
+			<div class="details">
+				<h1 class="plan-title">Silver</h1>
+			</div>
+			
+		</li>
+		
+		<li class="plan">
+			<span class="price price-red"></span>
+			
+			<div class="details">
+				<h1 class="plan-title">indices</h1>
+			</div>
+			
+		</li>
+	</ul>
+</div>
 	<!--start-about-->
 	<div class="about">
 		<div class="container">
@@ -54,6 +95,8 @@ An ECN broker benefits from commission fees per transaction. The higher trading 
 			</div>
 		</div>
 	</div>
-
+		<script type="text/javascript">
+  document.getElementById("aboutnav").className = "active";
+		</script>
 
 <?php get_footer(); ?>
