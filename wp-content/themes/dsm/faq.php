@@ -40,3 +40,7 @@ Template Name: FAQ
 </div>
 </div>
 <?php get_footer(); ?>
+<script type="text/javascript">
+	// document.getElementById('homenav').className = "";
+	document.getElementById('faqnav').className = "active";
+</script>

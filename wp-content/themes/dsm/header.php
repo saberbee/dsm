@@ -17,6 +17,7 @@
 <link href="<?php echo bloginfo('template_url') ?>/css/style.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo bloginfo('template_url') ?>/css/bootstrapp.min.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo bloginfo('template_url') ?>/css/pricing_table.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo bloginfo('template_url') ?>/css/aboutuslisting.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo bloginfo('template_url') ?>/css/dropdown.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo bloginfo('template_url') ?>/css/forms.css" rel='stylesheet' type='text/css' />
 <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
@@ -93,10 +94,10 @@
 			<!--start-top-nav-->
 			<nav class="top-nav">
 				<ul class="top-nav">
-					<li><a href="index.html"  class="active">Home</a></li>
-					<li><a href="<?php echo site_url(); ?>/faq">FAQ</a></li>
-					<li><a href="<?php echo site_url(); ?>/about">About us</a></li>
-					<li><a href="<?php echo site_url(); ?>/contactus">Contact us</a></li>
+					<li><a href="<?php echo site_url(); ?>" id="homenav" >Home</a></li>
+					<li><a href="<?php echo site_url(); ?>/faq" id="faqnav" >FAQ</a></li>
+					<li><a href="<?php echo site_url(); ?>/about" id="aboutnav">About us</a></li>
+					<li><a href="<?php echo site_url(); ?>/contactus" id="contactnav" >Contact us</a></li>
 				</ul>
 					<a href="#" id="pull"><img src="<?php echo bloginfo('template_url') ?>/images/menu-icon.png" title="menu" /></a>
 			</nav>
@@ -111,7 +112,7 @@
 			window.location.href = "http://localhost/dsm/new-account/";
 		}
 		else if(page == "deposit"){
-			window.location.href = "http://localhost/dsm/";
+			window.location.href = "http://localhost/dsm/deposit";
 		}
 		else if(page == "withdrawl"){
 			window.location.href = "http://localhost/dsm";
