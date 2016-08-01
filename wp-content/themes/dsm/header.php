@@ -112,10 +112,10 @@
 			window.location.href = "http://localhost/dsm/new-account/";
 		}
 		else if(page == "deposit"){
-			window.location.href = "http://localhost/dsm/deposit";
+			window.location.href = "http://localhost/dsm/deposit/";
 		}
 		else if(page == "withdrawl"){
-			window.location.href = "http://localhost/dsm";
+			window.location.href = "http://localhost/dsm/withdrawl";
 		}
 	}
 </script>
