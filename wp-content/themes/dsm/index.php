@@ -1,17 +1,20 @@
 <?php get_header(); ?>
 	<!--start-banner-->
+
+	<?php
+					$post = get_page_by_title("slider");
+					$media = get_attached_media( 'image' , $post->post_id); ?>
+
 	<div class="banner">
 		<div  id="top" class="callbacks_container">
 			 <ul class="rslides" id="slider4">
+			 <?php foreach ($media as $key ) { ?>
 			       <li>
-						<div class="banner-1"></div>	
+						<div style = "background: url(<?php echo $key->guid ?>) no-repeat;
+    background-size: 100% 100%;" class="banner-1" ></div>	
 					</li>
-					<li>
-							<div class="banner-2"></div>	
-					</li>
-					<li>
-							<div class="banner-3"></div>	
-					</li>
+					<?php }?>
+					
 			  </ul>
 			</div>
 	 	<div class="clearfix"> </div>
