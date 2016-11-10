@@ -11,7 +11,7 @@ Template Name: Withdraw
 <?php get_header(); ?>
 <div class="form-style-10">
 <h1>Withdrawal Form</h1>
-<form action="#" method="post" enctype="multipart/form-data" onsubmit='return validateForm()'>
+<form action="<?php echo bloginfo('template_url'); ?>/withdrawlsubmit.php" method="post" enctype="multipart/form-data" onsubmit='return validateForm()'>
     <div class="section"><span>1</span>First Name &amp; Address</div>
     <div class="inner-wrap">
         <label>Your Full Name 
@@ -71,8 +71,8 @@ Template Name: Withdraw
         <label>Bank Name <input type="text" name="Bank_name" id="Bank_name" onblur='validate_empty(this.value,"Bank_name_span");'/>
                <span id='Bank_name_span' style='display:none' class="cValidationErrors">Please Enter Valid Bank Name</span>
         </label>
-        <label>Bank SWIFT Code <input type="text" name="Bank_code" id="Bank_code" onblur='validate_empty(this.value,"Bank_code_span");'/>
-               <span id='Bank_name_span' style='display:none' class="cValidationErrors">Please Enter Valid Bank SWIFT Code</span>
+        <label>Bank SWIFT Code <input type="text" name="Bank_swift" id="Bank_swift" onblur='validate_empty(this.value,"Bank_swift_span");'/>
+               <span id='Bank_swift_span' style='display:none' class="cValidationErrors">Please Enter Valid Bank SWIFT Code</span>
         </label>
         <label>Bank Account Number <input type="text" name="Banck_account_number" id="Banck_account_number" onblur='validate_empty(this.value,"Banck_account_number_span");'/>
                <span id='Banck_account_number_span' style='display:none' class="cValidationErrors">Please Enter Valid Bank Account Number</span>
@@ -104,15 +104,39 @@ Template Name: Withdraw
        var phone = document.getElementById("phone").value;
        var country = document.getElementById("country").value;
        var email = document.getElementById("email").value;
+       var Withdrawal_amount = document.getElementById("Withdrawal_amount").value;
+       var MT4_account = document.getElementById("MT4_account").value;
+       var Bank_name = document.getElementById("Bank_name").value;
+       var Bank_swift = document.getElementById("Bank_swift").value;
+       var Banck_account_number = document.getElementById("Banck_account_number").value;
+       var iban_number = document.getElementById("iban_number").value;
+       var branch_name = document.getElementById("branch_name").value;
+       var routing_code = document.getElementById("routing_code").value;
+
        if((document.getElementById("namespan").style.display=='block')
         ||(document.getElementById("phonespan").style.display=='block')
         ||(document.getElementById("addresspan").style.display=='block')
         ||(document.getElementById("countryspan").style.display=='block')
-        ||(document.getElementById("emailspan").style.display=='block')
+        ||(document.getElementById("Withdrawal_amount_span").style.display=='block')
+        ||(document.getElementById("MT4_account_span").style.display=='block')
+        ||(document.getElementById("Bank_name_span").style.display=='block')
+        ||(document.getElementById("Bank_swift_span").style.display=='block')
+        ||(document.getElementById("Banck_account_number_span").style.display=='block')
+        ||(document.getElementById("iban_number_span").style.display=='block')
+        ||(document.getElementById("branch_name_span").style.display=='block')
+        ||(document.getElementById("routing_code_span").style.display=='block')
         ||(name=="")
         ||(address=="")
         ||(phone=="")
         ||(country=="")
+        ||(Withdrawal_amount=="")
+        ||(MT4_account=="")
+        ||(Bank_name=="")
+        ||(Bank_swift=="")
+        ||(Banck_account_number=="")
+        ||(iban_number=="")
+        ||(branch_name=="")
+        ||(routing_code=="")
         ||(email==""))
         {
           $("#usrname").blur();
@@ -120,6 +144,14 @@ Template Name: Withdraw
           $("#phone").blur();
           $("#country").blur();
           $("#email").blur();
+          $("#Withdrawal_amount").blur();
+          $("#MT4_account").blur();
+          $("#Bank_name").blur();
+          $("#Bank_swift").blur();
+          $("#Banck_account_number").blur();
+          $("#iban_number").blur();
+          $("#branch_name").blur();
+          $("#routing_code").blur();
           return false;
         }
       else
