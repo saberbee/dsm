@@ -2,26 +2,14 @@
 	<div class="touch">
 		<div class="container">
 			<div class="touch-main">
+			<div class="col-md-4 touch-left"></div>
 				<div class="col-md-4 touch-left">
 					<h3>Get in touch</h3>
-					<p>34789 Magic City Avenue, Los Angeles, CA, 94048</p>
-					<p>Call: 123 456 789<p>
-					<p>E-mail:<a href="mailto:example@email.com">testmail@sitename.com</a>
-	   					<span><a href="mailto:example@email.com">testmail@sitename.com</a></span></p>
+					<p>Egypt , Cairo , Elhegaz Square</p>
+					<p>Call: 00201004154512<p>
+					<p>E-mail:<a href="mailto:manager@mgmforex.com">manager@mgmforex.com</a>
+					<span><a href="mailto:manager_mgmforex@yahoo.com">manager_mgmforex@yahoo.com</a></span>
 				</div>
-				<div class="col-md-4 touch-left">
-					<h3>@twitter</h3>
-					<p>@twitterCheck out this great #codecanyon item 'Responsive Login, Sign Up and Payment Form Wizard' codecanyon.net/item/responsiv…</p>
-					<label>about 2days ago</label>
-				</div>
-				<div class="col-md-4 touch-right">
-					<ul>
-						<li><a href="#"><span class="fb"> </span></a></li>
-						<li><a href="#"><span class="twt"> </span></a></li>
-						<li><a href="#"><span class="g"> </span></a></li>
-						<li><a href="#"><span class="p"> </span></a></li>
-						<li><a href="#"><span class="drb"> </span></a></li>
-					</ul>
 				</div>
 				<div class="clearfix"></div>
 			</div>
