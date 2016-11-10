@@ -95,6 +95,18 @@ An ECN broker benefits from commission fees per transaction. The higher trading 
 			</div>
 		</div>
 	</div>
+
+	<?php
+	$post_im = get_page_by_title("about");
+	$media = get_attached_media( 'image' , $post_im->ID); 
+	?>
+	<?php foreach ($media as $key) { ?>
+	<center>
+	<div style="width: 100% ;display: block; padding-top: 10px;padding-bottom: 10px">
+		<img src="<?php echo $key->guid?>">
+	</div>
+	</center>
+<?php } ?>
 		<script type="text/javascript">
   document.getElementById("aboutnav").className = "active";
 		</script>
