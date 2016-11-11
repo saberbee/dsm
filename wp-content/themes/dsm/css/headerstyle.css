@@ -5,7 +5,7 @@
 }
 
 #menu {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 567px;
     left: 353px;
     margin: 60px auto;
@@ -38,10 +38,10 @@
 
 #menu a {
     float: left;
-    padding: 12px 30px;
+    padding: 15px 10px;
     color: #fff;
     text-transform: uppercase;
-    font: bold 11px Arial, Helvetica;
+    font: bold 13px Arial, Helvetica;
     text-decoration: none;
 /*    text-shadow: 0 0px 0 #000;
 */
@@ -99,7 +99,7 @@
 
 #menu ul a {    
     padding: 10px;
-    width: 130px;
+    width: 170px;
     _height: 10px; /*IE6 only*/
     display: block;
     white-space: nowrap;
@@ -270,4 +270,16 @@
 
 #menu li:hover > .no-transition {
     display: block;
+    background-color: black;
+}
+
+#menu li :hover{
+    background-color: #2470a5;
+}
+.current-menu-item {
+    background-color: #2470a5;
+}
+.current-menu-parent
+{
+    background-color: #2470a5;
 }

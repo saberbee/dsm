@@ -97,7 +97,11 @@
 			</div> -->
 			<!--start-top-nav-->
 <div id="menu-trigger" onclick="togglefun();"></div>
-	<ul id="menu">
+
+<?php wp_nav_menu( array( 'theme_location' => 'header-menu'  , 'container' => '' , 'items_wrap' => '<ul id="menu">%3$s</ul>')  ); ?>
+
+
+<!-- 	<ul id="menu">
     <li><a href="#">Home</a></li>
     <li>
         <a href="#">Categories</a>
@@ -126,7 +130,7 @@
     <li><a href="#">Work</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Contact</a></li>
-</ul>
+</ul> -->
 			<div class="clearfix"> </div>
 		</div>
 	</div>
