@@ -19,6 +19,7 @@
 <link href="<?php echo bloginfo('template_url') ?>/css/pricing_table.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo bloginfo('template_url') ?>/css/aboutuslisting.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo bloginfo('template_url') ?>/css/dropdown.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo bloginfo('template_url') ?>/css/headerstyle.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo bloginfo('template_url') ?>/css/forms.css" rel='stylesheet' type='text/css' />
 <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 <link href="<?php echo bloginfo('template_url') ?>/css/bootstrap.min.css" rel="stylesheet">
@@ -42,6 +43,9 @@
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
 			});
+			function togglefun(){
+    $("#menu").slideToggle();
+}
 		</script>
 <!--end-smoth-scrolling-->
 <!--start-top-nav-script-->
@@ -81,7 +85,7 @@
 			<div class="logo">
 				<a href="index.html"><img src="<?php echo bloginfo('template_url') ?>/images/logo.png" alt=""></a>  
 			</div>
-			<div class="quote">
+			<!-- <div class="quote">
 				<span class="custom-dropdown big">
    					 <select id="list" onchange="changepage();" style="cursor:pointer">
        					 <option value="empty">User Area </option>    
@@ -90,17 +94,39 @@
 						 <option value="withdrawl">Withdrawl</option>
   					 </select>
 				</span>
-			</div>
+			</div> -->
 			<!--start-top-nav-->
-			<nav class="top-nav">
-				<ul class="top-nav">
-					<li><a href="<?php echo site_url(); ?>" id="homenav" >Home</a></li>
-					<li><a href="<?php echo site_url(); ?>/faq" id="faqnav" >FAQ</a></li>
-					<li><a href="<?php echo site_url(); ?>/about" id="aboutnav">About us</a></li>
-					<li><a href="<?php echo site_url(); ?>/contactus" id="contactnav" >Contact us</a></li>
-				</ul>
-					<a href="#" id="pull"><img src="<?php echo bloginfo('template_url') ?>/images/menu-icon.png" title="menu" /></a>
-			</nav>
+<div id="menu-trigger" onclick="togglefun();"></div>
+	<ul id="menu">
+    <li><a href="#">Home</a></li>
+    <li>
+        <a href="#">Categories</a>
+        <ul>
+            <li><a href="#">step1</a></li>
+            <li><a href="#">step1''</a>
+            	<ul>
+            <li><a href="#">step2</a></li>
+            <li><a href="#">step2</a></li>
+            <li><a href="#">step2</a></li>
+            <li><a href="#">step2</a></li>
+        </ul>
+            </li>
+            <li><a href="#">step1</a></li>
+            <li><a href="#">step1</a></li>
+        </ul>
+    </li>
+    <li><a href="#">User Area</a>
+        <ul>
+            <li><a href="new-account">New Account</a></li>
+            <li><a href="deposit">Deposit</a></li>
+            <li><a href="withdrawl">Withdraw</a></li>
+            <li><a href="#">Web design</a></li>
+        </ul>
+            </li>
+    <li><a href="#">Work</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
